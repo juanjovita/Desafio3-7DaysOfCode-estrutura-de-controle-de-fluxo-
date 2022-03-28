@@ -13,3 +13,8 @@ else{
 }
 
 let msg  = prompt('Tem mais alguma tecnologia que deseja aprender? Digite 1 para SIM e 2 para NÃO.')
+
+while (msg == 1){ 
+  let novatecnologia = prompt('Qual?')
+   alert(`${novatecnologia} é mto legal!`) 
+    msg = prompt('Tem mais alguma tecnologia que gostaria de aprender? Digite 1 para SIM ou 2 para NÃO')}
