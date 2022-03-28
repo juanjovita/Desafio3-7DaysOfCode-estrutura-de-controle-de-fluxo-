@@ -8,3 +8,8 @@ if(resposta1 ==1){
 else if(resposta1 ==2){
 opcao2 = prompt('Você escolheu BACK END! Digite 1 para JAVA ou 2 para C# .')
 }
+else{
+  alert('VOCÊ PRECISAR ESCOLHER UMA OPÇÃO!')
+}
+
+let msg  = prompt('Tem mais alguma tecnologia que deseja aprender? Digite 1 para SIM e 2 para NÃO.')
